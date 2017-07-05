@@ -5,7 +5,7 @@ The CausalScreen R package implements a screening step to increase power when te
 ```
 install.packages("devtools") #The devtools package must be installed first
 
-devtools::install_github("SharonLutz/software/CausalScreen")
+devtools::install_github("SharonLutz/CausalScreen")
 ```
 #### Example
 For the given dataset dataS, one can test if one the SNPs X are directly associated with FEV given that the SNPs are associated with FEV through height and weight adjusting for age and gender. The code below runs this analysis.
