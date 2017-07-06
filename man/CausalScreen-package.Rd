@@ -1,0 +1,10 @@
+\name{CausalScreen-package}
+\alias{CausalScreen-package}
+\alias{CausalScreen-pkg}
+\docType{package}
+\title{
+\packageTitle{CausalScreen}
+}
+\description{
+\packageDescription{CausalScreen}
+}
