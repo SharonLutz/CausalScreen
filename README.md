@@ -8,7 +8,7 @@ install.packages("devtools") #The devtools package must be installed first
 devtools::install_github("SharonLutz/CausalScreen")
 ```
 #### Example
-For the given dataset dataS, one can test if the SNPs (i.e. X) are directly associated with FEV given that the SNPs are associated with FEV through height and weight adjusting for age and gender. The code below runs this analysis.
+For the given dataset dataS, one can test if each SNP in the matrix of SNPs (i.e. X) is directly associated with FEV given that the SNP is associated with FEV through height and weight adjusting for age and gender. The code below runs this analysis.
 ```
 library(CausalScreen)
 ?CausalScreen # For details on this function and how to choose input variables
