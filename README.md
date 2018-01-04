@@ -43,3 +43,4 @@ x40        40                  5 8.921338e-02 5.541485e-01 4.566276e-01
 **Lutz SM**, Vansteelandt S, Lange C. (2013) Testing for Direct Genetic Effects Using a Screening Step in Family-Based Association Studies. *Frontiers in Genetics*. 4 (243).
 
 Vansteelandt S, Goetgeluk S, **Lutz S**, Waldamn I, Lyon H, Schadt EE, Weiss ST, Lange C. (2009) On the Adjustment for Covariates in Genetic Association Analysis: A Novel, Simple Principle to Infer Direct Effects. *Genetic Epidemiology*. 33(5): 394-405.
+
