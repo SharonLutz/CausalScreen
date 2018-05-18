@@ -1,13 +1,14 @@
 ## CausalScreen
 The CausalScreen R package implements a screening step to increase power when testing for direct genetic effects of multiple SNPs in family based association studies using causal inference methodology. 
 
-#### Installation
+## Installation
 ```
 install.packages("devtools") #The devtools package must be installed first
 
 devtools::install_github("SharonLutz/CausalScreen")
 ```
-#### Example
+
+## Example
 For the sample dataset dataS, adjusting for age and gender and given the parental genotypes (i.e. P1 and P2), one can test if each  of the 100 SNPs (i.e. X) is directly associated with FEV given that the SNP is associated with FEV through the intermediate variable height and weight. The code to load the sample dataset and run CausalScreen are given below.
 ```
 library(CausalScreen)
@@ -25,7 +26,7 @@ gender<-dataS[,"gender"]
 CausalScreen(X,P1,P2,height,weight,fev,cbind(age,gender))
 ```
 
-#### Output
+## Output
 For this example, a subset of the output is given below. The first 2 SNPs directly act on FEV given the alternative pathways through height and weight after adjusting for age and gender (p-value=2.7E-8 and 2.7E-6). For more details on this method, please see the references listed below.
 
 ```
@@ -39,7 +40,7 @@ x40        40                  5 8.921338e-02 5.541485e-01 4.566276e-01
 .
 .
 ```
-#### References
+## References
 **Lutz SM**, Vansteelandt S, Lange C. (2013) Testing for Direct Genetic Effects Using a Screening Step in Family-Based Association Studies. *Frontiers in Genetics*. 4 (243).
 
 Vansteelandt S, Goetgeluk S, **Lutz S**, Waldamn I, Lyon H, Schadt EE, Weiss ST, Lange C. (2009) On the Adjustment for Covariates in Genetic Association Analysis: A Novel, Simple Principle to Infer Direct Effects. *Genetic Epidemiology*. 33(5): 394-405.
